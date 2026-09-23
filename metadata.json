@@ -1,0 +1,6 @@
+{
+  "name": "Raio-X do Negócio - Diagnóstico de Maturidade Empresarial",
+  "description": "Diagnóstico interativo de maturidade empresarial e identificação de gargalos para Personal Trainers e Nutricionistas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

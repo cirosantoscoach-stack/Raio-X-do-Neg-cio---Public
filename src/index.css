@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-rx-green: #154230;
+  --color-rx-green-dark: #0D2C20;
+  --color-rx-wine: #5D1E21;
+  --color-rx-wine-dark: #3F1416;
+  --color-rx-charcoal: #101111;
+  --color-rx-charcoal-light: #181919;
+  --color-rx-gold: #A6824A;
+  --color-rx-gold-light: #C5A065;
+  --color-rx-gold-dark: #876735;
+  --color-rx-offwhite: #E6E2DA;
+  --color-rx-offwhite-dim: #C5C0B6;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    background-color: #101111;
+    color: #E6E2DA;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom hairline borders and subtle luxury accents */
+.border-gold-subtle {
+  border-color: rgba(166, 130, 74, 0.25);
+}
+
+.border-gold-focus {
+  border-color: rgba(166, 130, 74, 0.8);
+}
+
+.bg-charcoal-card {
+  background-color: #141615;
+}
+
+.bg-charcoal-elevated {
+  background-color: #191B1A;
+}
